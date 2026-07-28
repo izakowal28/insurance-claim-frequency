@@ -179,3 +179,17 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Virtual environment
+venv/
+.venv/
+# PyCharm settings
+.idea/
+# Data files 
+data/raw/
+data/processed/
+# Excel workbooks
+excel/*.xlsx
+# OS junk
+.DS_Store
+Thumbs.db
